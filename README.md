@@ -2,14 +2,15 @@
 
 ## Overview:
 <!-- Explain the purpose of this analysis. -->
-The board of education for a local school district requires insights on recent student testing data to inform strategic decisions regarding budget allocation for the upcoming school year. The data gathered is based on the past academic year's standardized testing data for the district. The results from 9th graders at Thomas High School was invalidated due to testing security concerns. The overall analysis yields information about:
+The board of education for a local school district requires insights on recent student testing data to inform strategic decisions regarding budget allocation for the upcoming school year. The data gathered is based on the past academic year's standardized testing data for the district. The results from 9th graders at Thomas High School were invalidated due to test security concerns. The overall analysis yields information about:
 
 * Average scores on both math and reading tests for each school in the district
 * The percentage of students deemed proficient by state standards (above 70% correct) on the individual math and reading tests for each school in the district
-* The percentage of students deemed proficient by state standards (above 70% correct) on both the math and reading tests for each school in the district
+* The percentage of students deemed overall proficient by state standards (above 70% correct) on both the math and reading tests for each school in the district
 
 The above information was then analyzed further by grouping the schools in regards to the following criteria:
 
+* Student grade level
 * The school's budget per student (broken into 4 equally distributed categories)
 * The school's size (broken into 3 equally distributed categories)
 * The school's type (Public or Charter)
@@ -19,12 +20,12 @@ The above information was then analyzed further by grouping the schools in regar
 * Data Source: schools_complete.csv
 * Data Source: students_complete.csv
 * Software: Jupyter Notebook 6.4.8
-
+* Analysis File: PyCitySchools_Challenge.ipynb
 
 
 ## Analysis For the Board of Education: 
 
-The tablesbelow show final results from the analysis:
+The tables below show the final results from the analysis:
 
 ### Summary of Data by Schools
 ![ian-zukowski](Resources/Tables/per_school_summary_no_THS_9th.png)
