@@ -65,9 +65,13 @@ The issues at Thomas High School appear to have had little to no effect on the d
 
 ----------------------------------------------------------------------------------------------
 <!-- How is the school summary affected? -->
-The school summary also was relatively unaffected by the changes at Thomas High School. The only difference is the loss of data for Thomas High School's 9th grade math and reading scores. As all of these results were invalidated, those results are now null values in the table. All other scores were unaffected, as none of the other student results were invalidated. Those results can be found in the table below.
+The school summaries are also relatively unaffected by the changes at Thomas High School. Since none of the scores from any other schools were invalidated, the vast majority of the table is completely unchanged. The only cells with any changes are the cells in the row for 'Thomas High School'. These changes are quite insignificant as can be seen below.
 
-![ian-zukowski](Resources/Tables/scores_by_grade_by_school.png)
+#### All Schools Summary Before School Nullifications
+![ian-zukowski](Resources/Tables/per_school_summary_with_THS_9th.png)
+
+#### All Schools Summary After School Nullifications
+![ian-zukowski](Resources/Tables/per_school_summary_no_THS_9th.png)
 
 ----------------------------------------------------------------------------------------------
 <!-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools? -->
